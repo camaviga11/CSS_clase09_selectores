@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Ejemplo 02 CSS</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
   </head>
   <body>
     <header>
@@ -15,17 +16,17 @@
       </figure>
       <nav>
         <ul>
-          <li><a href="">Inicio</a></li>
-          <li><a href="">Contenido</a></li>
+          <li class="activo"><a href="index.html">Inicio</a></li>
+          <li><a href="contenido.html">Contenido</a></li>
           <li><a href="">catalogo</a></li>
           <li><a href="">Acerca de nosotros</a></li>
         </ul>
       </nav>
     </header>
     <section>
-      <h2>Titulo principal</h2>
+      <h2 id="principal">Titulo principal</h2>
       <article>
-        <div>
+        <div class="left">
           <h3>Subtitulo 1</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
@@ -40,7 +41,7 @@
             quia tempora laborum iusto nisi quidem. Veniam sed quaerat, ipsam
             obcaecati cupiditate quos illum commodi perferendis porro.
           </p>
-          <p>
+          <p class="importante">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
             nostrum consequuntur, facere tempora id, exercitationem, dicta
             asperiores sunt laboriosam quod quos omnis rerum ipsam nisi vero
@@ -49,7 +50,7 @@
             quasi! Unde harum tempora sed ab.
           </p>
         </div>
-        <div>
+        <div class="right">
           <h3>Subtitulo 2</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
@@ -80,8 +81,8 @@
           </p>
         </div>
       </article>
-      <article>
-        <div>
+      <article class="importante ">
+        <div class="left">
           <h3>Subtitulo 1</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
@@ -109,7 +110,7 @@
             nam quisquam porro odio ad!
           </p>
         </div>
-        <div>
+        <div class="right">
           <h3>Subtitulo 2</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
@@ -124,7 +125,7 @@
             magnam quod at laborum id suscipit porro ipsam a, libero ut dolorem
             repellendus tempora unde consequatur vel eligendi.
           </p>
-          <p>
+          <p lang="es">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
             velit quod maiores nihil consectetur nostrum ut? Eaque esse eligendi
             molestiae tenetur aliquam facilis rerum aspernatur ut, ab quisquam,
@@ -167,7 +168,7 @@
           laborum iusto nisi quidem. Veniam sed quaerat, ipsam obcaecati
           cupiditate quos illum commodi perferendis porro.
         </p>
-        <p>
+        <p class="importante" lang="en">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quam
           consequatur veritatis labore suscipit fugiat dolorum odio consectetur
           ipsa non!
